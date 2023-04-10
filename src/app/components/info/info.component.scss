@@ -1,0 +1,49 @@
+:host{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .container{
+    position: relative;
+    width: 95%;
+    height: 498px;
+    background: var(--secondary-color);
+    border-radius: 30px;
+    margin-top: 84px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .container h1{
+    font-family: var(--epilogue);
+    font-weight: 700;
+    font-size: 60px;
+    color: var(--branco);
+    width: 500px;
+    margin-left: 53px;
+
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .container img{
+    position: absolute;
+    width: 400px;
+    right: 0%;
+    top: 64px;
+    object-fit: contain;
+  }
+
+  .buttons-container{
+    width: 567px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 36px 60px;
+  }
+}

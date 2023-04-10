@@ -1,0 +1,26 @@
+<section>
+  <div class="box-titulo">
+    <h2>WHAT THEY SAY</h2>
+    <h1>What our customers <br />say about us ?</h1>
+  </div>
+  <div class="corpo">
+    <div class="box-depoimentos">
+      <label>{{ comentarios[idComent][1] }}</label>
+      <p>{{ comentarios[idComent][0] }}</p>
+    </div>
+
+    <p id="aspas-1" class="aspas">"</p>
+    <p id="aspas-2" class="aspas">"</p>
+
+    <div class="box-buttons">
+      <div class="button--">
+        <p>Next</p>
+        <img src="assets/seta-prox.svg" alt="proxima" (click)="addIdComent()" />
+      </div>
+      <div class="button--">
+        <img src="assets/seta-prev.svg" alt="voltar" (click)="subIdComent()" />
+        <p>Previous</p>
+      </div>
+    </div>
+  </div>
+</section>

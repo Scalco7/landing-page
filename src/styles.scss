@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+@import "./config-css/reset.scss";
+@import "./config-css/variaveis.scss";
+@import "./config-css/animations.scss";
+
+html{
+  background: var(--preto);
+}
+
+main {
+  margin: 0;
+  box-sizing: border-box;
+}

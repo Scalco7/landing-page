@@ -1,0 +1,36 @@
+:host{
+  section{
+    position: relative;
+    width: 273px;
+    height: 75px;
+    background: var(--preto);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  img{
+    position: absolute;
+    width: 41.94px;
+    height: 49.92px;
+
+    top: 12.54px;
+    left: 10px;
+  }
+
+  h1{
+    color: var(--branco);
+    font-family: var(--work-sans);
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  p{
+    font-weight: 700;
+    font-size: 20px;
+  }
+}
